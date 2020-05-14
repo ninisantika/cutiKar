@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "249814242165",
+    "firebase_url": "https://cukar-b2b60.firebaseio.com",
+    "project_id": "cukar-b2b60",
+    "storage_bucket": "cukar-b2b60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249814242165:android:7b83963160a3c6d408f93c",
+        "android_client_info": {
+          "package_name": "com.nisansan.cukar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249814242165-q2g2umtonnbdkvkgobqfstrbtse1aiot.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nisansan.cukar",
+            "certificate_hash": "f7e99e8f8eb6176eaa032b413ab7d97efb5ba82e"
+          }
+        },
+        {
+          "client_id": "249814242165-pogth869fre72frv5v9ea36b5egems42.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLbqr6i9vrRH2Wv5n135m6VEE7jX8bzqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249814242165-pogth869fre72frv5v9ea36b5egems42.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

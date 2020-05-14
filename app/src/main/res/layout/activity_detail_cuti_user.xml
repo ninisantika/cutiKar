@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailCutiUser">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Detail Cuti"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/detail_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID_Cuti : "
+        android:drawableLeft="@drawable/ic_assignment_black_24dp"
+        android:padding="5dp"
+        android:drawablePadding="10dp"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:id="@+id/detail_jumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jumlah : "
+        android:drawableLeft="@drawable/ic_edit_black_24dp"
+        android:padding="5dp"
+        android:drawablePadding="10dp"
+        android:layout_margin="5dp" />
+    <TextView
+        android:id="@+id/detail_tgl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal : "
+        android:drawableLeft="@drawable/ic_event_black_24dp"
+        android:padding="5dp"
+        android:drawablePadding="10dp"
+        android:layout_margin="5dp" />
+    <TextView
+        android:id="@+id/detail_keterangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keterangan : "
+        android:drawableLeft="@drawable/ic_note_add_black_24dp"
+        android:padding="5dp"
+        android:drawablePadding="10dp"
+        android:layout_margin="5dp" />
+    <TextView
+        android:id="@+id/detail_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status : "
+        android:drawableLeft="@drawable/ic_query_builder_black_24dp"
+        android:padding="5dp"
+        android:drawablePadding="10dp"
+        android:layout_margin="5dp" />
+
+</LinearLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DB3232"
+    tools:context=".DataProfileActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/colorPrimaryDark">
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/male"/>
+
+                <TextView
+                    android:id="@+id/fullnamaLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:hint="FullnameLabel"
+                    android:textColor="#ffff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="190dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="300dp"
+            android:layout_height="20dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_centerHorizontal="true"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:orientation="vertical"
+            android:layout_marginTop="240dp"
+            android:paddingHorizontal="20dp"
+            android:background="#ffff">
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:id="@+id/fullnameData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/users"
+                android:padding="8dp"
+                android:drawablePadding="10dp"
+                android:hint="Fullname"
+                android:textSize="15sp"/>
+
+
+            <TextView
+                android:id="@+id/id_Data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/id_karyawan"
+                android:drawablePadding="10dp"
+                android:hint="ID Karyawan"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/usernameData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/email"
+                android:drawablePadding="10dp"
+                android:hint="Email"
+                android:gravity="center_vertical"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/passwordData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:padding="8dp"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/password"
+                android:drawablePadding="10dp"
+                android:hint="Password"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/spinnerData"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="3dp"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/status"
+                android:drawablePadding="10dp"
+                android:hint="Status User"
+                android:gravity="center_vertical"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+</RelativeLayout>

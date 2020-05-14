@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cukar</string>
+    <string-array name="typeUser">
+        <item>Staff</item>
+        <item>Admin</item>
+        <item>Manager</item>
+    </string-array>
+</resources>
